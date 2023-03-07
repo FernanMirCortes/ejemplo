@@ -1,0 +1,197 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Ubuntu:wght@300&display=swap');
+
+body{
+	    margin: 3rem 6rem 3rem 6rem;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+	    text-align: center;
+
+}
+hr{
+	width:60%;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+	float:left
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+span {
+    font-family: 'Playfair Display', serif;
+    color: #F00;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav {
+    background-color: #fff;
+	display:flex;
+	justify-content: space-between;
+}
+
+a{
+	text-decoration:none;
+	  color: #111 ;
+	
+}
+
+nav a {
+    color: #111 ;
+    padding: 15px;
+    width: 100%;
+   
+	text-decoration:none;
+}
+
+.menu{
+	margin-top:1.5rem;
+	float:right;
+}
+
+nav a:hover{
+    background-color: #fff;
+    color: #111;
+    border-bottom: solid #111;	
+}
+
+.circuloPizza{
+	background-color: #DDD;
+	text-align: center;
+    width: 20%;
+	border-radius: 50%;
+    box-shadow: 4px 4px 7px #111;
+	border: solid #111;
+	height: 3rem;
+	font-size: 1rem;
+	box-sizing: content-box;
+	}
+	
+.titulo{
+	width:100%
+}
+.titulo h2{
+    font-size: 2.5rem;
+}
+
+img {
+    width: 30%;
+	display: inline-block;
+}
+
+.principal{
+	margin-top:3rem;
+	display:flex;
+}
+.principal >img{
+width:50%;
+}
+.formulario{
+	margin-left: 3rem;
+    width: 35%;
+	
+}
+
+.formulario h3{
+	font-size:2rem ;
+	
+}
+select{
+	margin-top:1rem;
+	margin-bottom:1rem;
+	width:100%;
+	box-sizing: content-box;
+    height: 5%;
+	border-radius: 14px;
+	background-color:#DDD;
+	font-size:1rem;
+}
+
+button{
+    width: 100%;
+    box-shadow: 4px 4px 7px #111;
+    box-sizing: content-box;
+    height: 10%;
+	border-radius: 14px;
+	background-color:#DDD;
+	font-size:1.5rem;
+	margin-bottom:1.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    max-width: 50%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+	display: flex;
+    justify-content: space-between;
+}
+footer> p{
+	text-align:right;
+
+}
+.parrafo1{
+	text-align:left;
+}
+
+
+@media screen and (max-width: 800px) {
+	hr{
+		width:100%;
+		
+	}
+	
+	.circuloPizza{
+		display:none;
+	}
+	.titulo{
+		margin-top:6.5rem;
+	}
+	
+	nav{
+		display:inline;
+		width:100%
+	}
+	.menu{
+		display:flex;
+		width:100%;
+		text-align: center;
+	}
+	
+	.principal{
+	    display: block;
+	}
+	.principal img{
+		width:100%;
+	}
+
+	.formulario{
+	width: 100%;
+	margin-left:0rem;
+	}
+
+	footer {
+    
+  	text-align: none;
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 100%;    
+	}
+
+	
+}
+  
